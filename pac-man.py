@@ -50,6 +50,11 @@ tiles = [
 ]
 # fmt: on
 
+# Abre dos conexiones nuevas entre los pasillos del tablero.
+tiles[2 * 20 + 2] = 1
+tiles[2 * 20 + 3] = 1
+tiles[4 * 20 + 8] = 1
+tiles[5 * 20 + 8] = 1
 
 def square(x, y):
     """Draw square using path at (x, y)."""
